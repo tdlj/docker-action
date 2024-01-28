@@ -12,7 +12,7 @@ func main() {
 		for {
 			select {
 			case <-t.C:
-				fmt.Println("hello world")
+				fmt.Println("hello")
 			}
 		}
 	}()
